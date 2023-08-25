@@ -29,8 +29,10 @@ function traerPokemon(pokemon){
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
     .then((response) => response.json())
     .then(data => {
+
         crearPokemon(data)
         mostrarEXPBase(data)
+        
     })
     
 }
