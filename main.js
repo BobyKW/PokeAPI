@@ -20,8 +20,6 @@ submitBtn.addEventListener('click', e => {
 
     }
     
-
-
 })
 
 
@@ -70,7 +68,6 @@ function mostrarEXPBase(pokemon){
     const habilidad_1 = pokemon.abilities[0].ability.name
     const habilidad_2 = pokemon.abilities[1].ability.name
 
-    // console.log(habilidad_1)
 
     divMostrarEXPBase.innerHTML = `
     <table class="w-25 p-4">
